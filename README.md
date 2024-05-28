@@ -10,9 +10,9 @@
 <img width="1464" alt="Screenshot 2024-05-27 at 21 58 14" src="https://github.com/ngodanghuy162/Viettel-Digital-Talent-2024/assets/100140595/b3de8a17-612e-4f2e-b3a2-e2f646f8652f">
 
  - Mã nguồn của từng dịch vụ:
-   [i.Web](https://github.com/ngodanghuy162/vdt-front)  
-   [ii.API](https://github.com/ngodanghuy162/vdt-back/tree/main/back) 
-   [iii.Database](https://github.com/ngodanghuy162/vdt-back/tree/main/back/dtb) 
+   [i.Web](https://github.com/ngodanghuy162/vdt-front)</br>
+   [ii.API](https://github.com/ngodanghuy162/vdt-back/tree/main/back)</br>
+   [iii.Database](https://github.com/ngodanghuy162/vdt-back/tree/main/back/dtb)</br>
    - Tất cả Dockerfile, file CD đều nằm trong các repo.
    - [File chứa unit test cho các api](https://github.com/ngodanghuy162/vdt-back/blob/main/back/src/test/java/appbackend/back/service/UserServiceTest.java) : Có 9 unit test với các trường hợp thành công, thất bại cho mỗi Case của API.
 ## Triển khai web application sử dụng các DevOps tools & practices (5đ)
@@ -40,7 +40,7 @@
        <img width="904" alt="Screenshot 2024-05-23 at 13 10 55" src="https://github.com/ngodanghuy162/Viettel-Digital-Talent-2024/assets/100140595/7f150f51-edf5-4ff7-ac3d-57fc0eee200f">
 # 2. CI (1.5đ)
 Yêu cầu:
-Tự động chạy unit test khi tạo PR vào branch main (0.5đ)
+Tự động chạy unit test khi tạo PR vào branch main (0.5đ)</br>
 Tự động chạy unit test khi push commit lên một branch (1đ)
 
 - [File setup công cụ (Github Acions)](https://github.com/ngodanghuy162/vdt-back/blob/main/.github/workflows/CI.yml)
@@ -63,11 +63,11 @@ Tự động chạy unit test khi push commit lên một branch (1đ)
 # 3. Ansible
 - Yêu cầu:</br>
 1.Viết ansible playbooks để triển khai các image docker của các dịch vụ web, api, db, mỗi dịch vụ 1 role (0.5đ).                                       
-      - Link playbook:https://github.com/ngodanghuy162/Viettel-Digital-Talent-2024/blob/midterm/ansible/playbook.yml</br>
+      - [Link playbook](https://github.com/ngodanghuy162/Viettel-Digital-Talent-2024/blob/midterm/ansible/playbook.yml)</br>
 2.Trong từng role cho phép tuỳ biến cấu hình của các dịch vụ thông qua các variables (0.5đ).</br>
       - Các biến cấu hình nằm trong các tệp vars. [Link roles](https://github.com/ngodanghuy162/Viettel-Digital-Talent-2024/tree/midterm/ansible/roles)</br>
 3.Cho phép triển khai các dịch vụ trên các host khác nhau thông qua file inventory (0.5đ).: Triển khai trên 3 con VM, 1 con triển khai frontend, 1 con backend và 1 con db.
-      - [Link file source code ansible:](https://github.com/ngodanghuy162/Viettel-Digital-Talent-2024/edit/midterm)
+      - [Link file source code ansible](https://github.com/ngodanghuy162/Viettel-Digital-Talent-2024/edit/midterm)
 <img width="1461" alt="Screenshot 2024-05-27 at 21 30 06" src="https://github.com/ngodanghuy162/Viettel-Digital-Talent-2024/assets/100140595/8c0d76fc-f468-4372-87c6-7a0ee7e95aaf">
 <img width="1384" alt="Screenshot 2024-05-27 at 21 34 49" src="https://github.com/ngodanghuy162/Viettel-Digital-Talent-2024/assets/100140595/4855ca17-991e-4a21-88ef-d3ca1b86a361">
 <img width="1056" alt="Screenshot 2024-05-27 at 21 35 31" src="https://github.com/ngodanghuy162/Viettel-Digital-Talent-2024/assets/100140595/57f1eaf8-647f-4828-88e2-be5494f149f8">
